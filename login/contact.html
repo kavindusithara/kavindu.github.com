@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="image/style.css" />
+    <link rel="stylesheet" href="style/register.css" />
+  </head>
+
+  <body class="b1">
+    <form action="post" class="contact-form">
+      <!--contact form header-->
+
+      <div class="signup-header">
+        <h1>Contact us</h1>
+      </div>
+
+      <div class="form-body">
+        <!--first  name  and last name-->
+
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="firstname" class="label-title">First name *</label>
+            <input
+              type="text"
+              id="firstname"
+              class="contact-form-input"
+              placeholder="Enter your first name"
+              required="required"
+            />
+          </div>
+          <div class="form-group right">
+            <label for="lastname" class="label-title">Last name</label>
+            <input
+              type="text"
+              id="lastname"
+              class="contact-form-input"
+              placeholder="Enter your last name"
+            />
+          </div>
+        </div>
+
+        <!--Email address-->
+
+        <div class="form-group">
+          <label for="Email" class="label-title">Email *</label>
+          <input
+            type="Email"
+            class="contact-form-input"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+
+        <!--About-->
+
+        <div class="form-group">
+          <label for="choose-file" class="label-title">About</label>
+          <textarea
+            name="about"
+            cols="4"
+            rows="6"
+            class="form-input"
+            style="height: auto"
+          ></textarea>
+        </div>
+
+        <div>
+          <button class="create-account">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style/register.css" />
+    <link rel="stylesheet" href="image/style.css" />
+  </head>
+
+  <body class="b1">
+    <form action="post" class="signup-form">
+      <!--form header-->
+      <div class="signup-header">
+        <h1>Create New Account</h1>
+      </div>
+
+      <!--form body-->
+      <div class="form-body">
+        <!--First and last name-->
+
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="firstname" class="label-title">First name *</label>
+            <input
+              type="text"
+              id="firstname"
+              class="form-input"
+              placeholder="enter your first name"
+              required="required"
+            />
+          </div>
+          <div class="form-group right">
+            <label for="lastname" class="label-title">Last name</label>
+            <input
+              type="text"
+              id="lastname"
+              class="form-input"
+              placeholder="enter your last name"
+            />
+          </div>
+        </div>
+
+        <!--Email address-->
+        <div class="form-group">
+          <label for="Email" class="label-title">Email *</label>
+          <input
+            type="Email"
+            class="form-input"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+
+        <!--password and confirm password -->
+
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="password" class="label-title">Password *</label>
+            <input
+              type="password"
+              id="firstname"
+              class="form-input"
+              placeholder="enter your password"
+              required="required"
+            />
+          </div>
+          <div class="form-group right">
+            <label for="lastname" class="label-title">Confirm password *</label>
+            <input
+              type="password"
+              id="lastname"
+              class="form-input"
+              placeholder="enter your password again"
+            />
+          </div>
+        </div>
+
+        <!--gender-->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label class="label-title">Gender:</label>
+            <div class="input-group">
+              <label for="male"
+                ><input type="radio" name="gender" value="male" id="male" />
+                Male</label
+              >
+              <label for="female"
+                ><input type="radio" name="gender" value="female" id="female" />
+                Female</label
+              >
+            </div>
+          </div>
+          <div class="form-group right">
+            <label class="label-title">Hobbies</label>
+            <div>
+              <label><input type="checkbox" value="Web" />Music</label>
+              <label><input type="checkbox" value="iOS" />Sports</label>
+              <label><input type="checkbox" value="Andriod" />Travel</label>
+              <label><input type="checkbox" value="Game" />Movies</label>
+            </div>
+          </div>
+        </div>
+
+        <!--Address-->
+
+        <div class="form-group">
+          <label for="Address" class="label-title">Address *</label>
+          <input
+            type="Address"
+            class="form-input"
+            placeholder="Your address"
+            required
+          />
+        </div>
+
+        <!--phone number-->
+
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="number--" class="label-title">Mobile Number *</label>
+            <input
+              type="number"
+              id="mobile number"
+              class="form-input"
+              placeholder="enter your mobile number"
+              required="required"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="signup-footer">
+        <button class="create-account">Create Account</button>
+        <span class="acount-login"
+          >If you alredy have account
+          <a href="login.html" class="login">Log in.</a></span
+        >
+      </div>
+    </form>
+  </body>
+</html>
